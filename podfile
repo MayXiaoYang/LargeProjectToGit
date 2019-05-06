@@ -4,7 +4,9 @@ target "LargeProjectToGit" do
 pod 'AFNetworking', '~> 3.2.1'
 pod 'Masonry', '~> 1.1.0'
 pod 'SDWebImage', '~> 4.3.3'
-
+pod 'AMap3DMap', '~> 6.2.0'
+pod 'AMapSearch', '~> 6.1.0'
+pod 'AMapLocation', '~> 2.6.0'
 
 
 end
