@@ -7,6 +7,6 @@ pod 'SDWebImage', '~> 4.3.3'
 pod 'AMap3DMap', '~> 6.2.0'
 pod 'AMapSearch', '~> 6.1.0'
 pod 'AMapLocation', '~> 2.6.0'
-
-
+pod 'ZBarSDK', '~> 1.3.1'
+pod 'MBProgressHUD', '~> 1.1.0'
 end

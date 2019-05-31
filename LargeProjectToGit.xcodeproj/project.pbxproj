@@ -8,6 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		1AD614CEFDB882CE3A12C792 /* libPods-LargeProjectToGit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0518BEF548BC3AD995D1420B /* libPods-LargeProjectToGit.a */; };
+		DB2A811522804CD000189397 /* LQScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A811422804CD000189397 /* LQScanViewController.m */; };
+		DB2A811722804F6F00189397 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2A811622804F6F00189397 /* AVFoundation.framework */; };
+		DB2A81242280513E00189397 /* LXQRCodeScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A81192280513E00189397 /* LXQRCodeScanView.m */; };
+		DB2A81252280513E00189397 /* LXQRLightManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A811A2280513E00189397 /* LXQRLightManager.m */; };
+		DB2A81262280513E00189397 /* LXQRCodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A811B2280513E00189397 /* LXQRCodeHelper.m */; };
+		DB2A81272280513E00189397 /* LXQRCodeScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A811E2280513E00189397 /* LXQRCodeScanManager.m */; };
+		DB2A81282280513E00189397 /* LXWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A81222280513E00189397 /* LXWebViewProgressView.m */; };
+		DB2A81512280516800189397 /* UIButton+LXExpandBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A812A2280516800189397 /* UIButton+LXExpandBtn.m */; };
+		DB2A81522280516800189397 /* NSMutableDictionary+LXSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A812B2280516800189397 /* NSMutableDictionary+LXSwizzling.m */; };
+		DB2A81532280516800189397 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A81322280516800189397 /* UIView+Frame.m */; };
+		DB2A81542280516800189397 /* UIView+LXCornerdious.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A81332280516800189397 /* UIView+LXCornerdious.m */; };
+		DB2A81552280516800189397 /* UILabel+LXVerticalStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A81342280516800189397 /* UILabel+LXVerticalStyle.m */; };
+		DB2A81562280516800189397 /* UIImage+LXImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A813A2280516800189397 /* UIImage+LXImage.m */; };
+		DB2A81572280516800189397 /* UIView+LX_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A81402280516800189397 /* UIView+LX_Frame.m */; };
+		DB2A81582280516800189397 /* NSObject+LXSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A81412280516800189397 /* NSObject+LXSwizzling.m */; };
+		DB2A81592280516800189397 /* UILabel+LXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A81422280516800189397 /* UILabel+LXLabel.m */; };
+		DB2A815A2280516900189397 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A81432280516800189397 /* NSString+Extension.m */; };
+		DB2A815B2280516900189397 /* NSMutableArray+LXSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A81442280516800189397 /* NSMutableArray+LXSwizzling.m */; };
+		DB2A815C2280516900189397 /* LXTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A81452280516800189397 /* LXTextView.m */; };
+		DB2A815D2280516900189397 /* UILabel+YBAttributeTextTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A81462280516800189397 /* UILabel+YBAttributeTextTapAction.m */; };
+		DB2A815E2280516900189397 /* LXCustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A81472280516800189397 /* LXCustomTextView.m */; };
+		DB2A815F2280516900189397 /* UIImage+LXQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A814B2280516800189397 /* UIImage+LXQRCode.m */; };
+		DB2A81602280516900189397 /* UIWindow+LXCurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A814C2280516800189397 /* UIWindow+LXCurrentViewController.m */; };
+		DB2A81612280516900189397 /* NSObject+LXHud.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A814D2280516800189397 /* NSObject+LXHud.m */; };
+		DB2A81622280516900189397 /* UIColor+LXExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A814F2280516800189397 /* UIColor+LXExpand.m */; };
+		DB2A81632280516900189397 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A81502280516800189397 /* UIView+Toast.m */; };
 		DB5175A5227FD39E0049B2F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5175A4227FD39E0049B2F7 /* AppDelegate.m */; };
 		DB5175A8227FD39E0049B2F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5175A7227FD39E0049B2F7 /* ViewController.m */; };
 		DB5175AB227FD39E0049B2F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5175A9227FD39E0049B2F7 /* Main.storyboard */; };
@@ -39,6 +65,59 @@
 		0518BEF548BC3AD995D1420B /* libPods-LargeProjectToGit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LargeProjectToGit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		349BA3053B971325C8473A73 /* Pods-LargeProjectToGit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LargeProjectToGit.release.xcconfig"; path = "Pods/Target Support Files/Pods-LargeProjectToGit/Pods-LargeProjectToGit.release.xcconfig"; sourceTree = "<group>"; };
 		C849BBCFC65CECDC9BBF84FC /* Pods-LargeProjectToGit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LargeProjectToGit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LargeProjectToGit/Pods-LargeProjectToGit.debug.xcconfig"; sourceTree = "<group>"; };
+		DB2A811322804CD000189397 /* LQScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQScanViewController.h; sourceTree = "<group>"; };
+		DB2A811422804CD000189397 /* LQScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQScanViewController.m; sourceTree = "<group>"; };
+		DB2A811622804F6F00189397 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DB2A81192280513E00189397 /* LXQRCodeScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXQRCodeScanView.m; sourceTree = "<group>"; };
+		DB2A811A2280513E00189397 /* LXQRLightManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXQRLightManager.m; sourceTree = "<group>"; };
+		DB2A811B2280513E00189397 /* LXQRCodeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXQRCodeHelper.m; sourceTree = "<group>"; };
+		DB2A811C2280513E00189397 /* LXWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXWebViewProgressView.h; sourceTree = "<group>"; };
+		DB2A811D2280513E00189397 /* LXQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXQRCode.h; sourceTree = "<group>"; };
+		DB2A811E2280513E00189397 /* LXQRCodeScanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXQRCodeScanManager.m; sourceTree = "<group>"; };
+		DB2A811F2280513E00189397 /* LXQRCodeScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXQRCodeScanView.h; sourceTree = "<group>"; };
+		DB2A81202280513E00189397 /* LXQRCodeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXQRCodeHelper.h; sourceTree = "<group>"; };
+		DB2A81212280513E00189397 /* LXQRLightManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXQRLightManager.h; sourceTree = "<group>"; };
+		DB2A81222280513E00189397 /* LXWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXWebViewProgressView.m; sourceTree = "<group>"; };
+		DB2A81232280513E00189397 /* LXQRCodeScanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXQRCodeScanManager.h; sourceTree = "<group>"; };
+		DB2A812A2280516800189397 /* UIButton+LXExpandBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LXExpandBtn.m"; sourceTree = "<group>"; };
+		DB2A812B2280516800189397 /* NSMutableDictionary+LXSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+LXSwizzling.m"; sourceTree = "<group>"; };
+		DB2A812C2280516800189397 /* LXTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXTextView.h; sourceTree = "<group>"; };
+		DB2A812D2280516800189397 /* NSMutableArray+LXSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+LXSwizzling.h"; sourceTree = "<group>"; };
+		DB2A812E2280516800189397 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		DB2A812F2280516800189397 /* UILabel+LXLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LXLabel.h"; sourceTree = "<group>"; };
+		DB2A81302280516800189397 /* NSObject+LXSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LXSwizzling.h"; sourceTree = "<group>"; };
+		DB2A81312280516800189397 /* UIView+LX_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LX_Frame.h"; sourceTree = "<group>"; };
+		DB2A81322280516800189397 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		DB2A81332280516800189397 /* UIView+LXCornerdious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LXCornerdious.m"; sourceTree = "<group>"; };
+		DB2A81342280516800189397 /* UILabel+LXVerticalStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LXVerticalStyle.m"; sourceTree = "<group>"; };
+		DB2A81352280516800189397 /* LXCustomTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCustomTextView.h; sourceTree = "<group>"; };
+		DB2A81362280516800189397 /* UILabel+YBAttributeTextTapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YBAttributeTextTapAction.h"; sourceTree = "<group>"; };
+		DB2A81372280516800189397 /* UIColor+LXExpand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LXExpand.h"; sourceTree = "<group>"; };
+		DB2A81382280516800189397 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		DB2A81392280516800189397 /* LXUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXUtils.h; sourceTree = "<group>"; };
+		DB2A813A2280516800189397 /* UIImage+LXImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LXImage.m"; sourceTree = "<group>"; };
+		DB2A813B2280516800189397 /* NSObject+LXHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LXHud.h"; sourceTree = "<group>"; };
+		DB2A813C2280516800189397 /* UIWindow+LXCurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+LXCurrentViewController.h"; sourceTree = "<group>"; };
+		DB2A813D2280516800189397 /* UIImage+LXQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LXQRCode.h"; sourceTree = "<group>"; };
+		DB2A813E2280516800189397 /* NSMutableDictionary+LXSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+LXSwizzling.h"; sourceTree = "<group>"; };
+		DB2A813F2280516800189397 /* UIButton+LXExpandBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LXExpandBtn.h"; sourceTree = "<group>"; };
+		DB2A81402280516800189397 /* UIView+LX_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LX_Frame.m"; sourceTree = "<group>"; };
+		DB2A81412280516800189397 /* NSObject+LXSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LXSwizzling.m"; sourceTree = "<group>"; };
+		DB2A81422280516800189397 /* UILabel+LXLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LXLabel.m"; sourceTree = "<group>"; };
+		DB2A81432280516800189397 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		DB2A81442280516800189397 /* NSMutableArray+LXSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LXSwizzling.m"; sourceTree = "<group>"; };
+		DB2A81452280516800189397 /* LXTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXTextView.m; sourceTree = "<group>"; };
+		DB2A81462280516800189397 /* UILabel+YBAttributeTextTapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YBAttributeTextTapAction.m"; sourceTree = "<group>"; };
+		DB2A81472280516800189397 /* LXCustomTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCustomTextView.m; sourceTree = "<group>"; };
+		DB2A81482280516800189397 /* UILabel+LXVerticalStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LXVerticalStyle.h"; sourceTree = "<group>"; };
+		DB2A81492280516800189397 /* UIView+LXCornerdious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LXCornerdious.h"; sourceTree = "<group>"; };
+		DB2A814A2280516800189397 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		DB2A814B2280516800189397 /* UIImage+LXQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LXQRCode.m"; sourceTree = "<group>"; };
+		DB2A814C2280516800189397 /* UIWindow+LXCurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+LXCurrentViewController.m"; sourceTree = "<group>"; };
+		DB2A814D2280516800189397 /* NSObject+LXHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LXHud.m"; sourceTree = "<group>"; };
+		DB2A814E2280516800189397 /* UIImage+LXImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LXImage.h"; sourceTree = "<group>"; };
+		DB2A814F2280516800189397 /* UIColor+LXExpand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LXExpand.m"; sourceTree = "<group>"; };
+		DB2A81502280516800189397 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		DB5175A0227FD39E0049B2F7 /* LargeProjectToGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LargeProjectToGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5175A3227FD39E0049B2F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB5175A4227FD39E0049B2F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2A811722804F6F00189397 /* AVFoundation.framework in Frameworks */,
 				1AD614CEFDB882CE3A12C792 /* libPods-LargeProjectToGit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,9 +175,74 @@
 		C6550919FCF0905A05F87A78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DB2A811622804F6F00189397 /* AVFoundation.framework */,
 				0518BEF548BC3AD995D1420B /* libPods-LargeProjectToGit.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB2A81182280513E00189397 /* LXQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				DB2A81192280513E00189397 /* LXQRCodeScanView.m */,
+				DB2A811A2280513E00189397 /* LXQRLightManager.m */,
+				DB2A811B2280513E00189397 /* LXQRCodeHelper.m */,
+				DB2A811C2280513E00189397 /* LXWebViewProgressView.h */,
+				DB2A811D2280513E00189397 /* LXQRCode.h */,
+				DB2A811E2280513E00189397 /* LXQRCodeScanManager.m */,
+				DB2A811F2280513E00189397 /* LXQRCodeScanView.h */,
+				DB2A81202280513E00189397 /* LXQRCodeHelper.h */,
+				DB2A81212280513E00189397 /* LXQRLightManager.h */,
+				DB2A81222280513E00189397 /* LXWebViewProgressView.m */,
+				DB2A81232280513E00189397 /* LXQRCodeScanManager.h */,
+			);
+			path = LXQRCode;
+			sourceTree = "<group>";
+		};
+		DB2A81292280516800189397 /* LXUtils */ = {
+			isa = PBXGroup;
+			children = (
+				DB2A812A2280516800189397 /* UIButton+LXExpandBtn.m */,
+				DB2A812B2280516800189397 /* NSMutableDictionary+LXSwizzling.m */,
+				DB2A812C2280516800189397 /* LXTextView.h */,
+				DB2A812D2280516800189397 /* NSMutableArray+LXSwizzling.h */,
+				DB2A812E2280516800189397 /* NSString+Extension.h */,
+				DB2A812F2280516800189397 /* UILabel+LXLabel.h */,
+				DB2A81302280516800189397 /* NSObject+LXSwizzling.h */,
+				DB2A81312280516800189397 /* UIView+LX_Frame.h */,
+				DB2A81322280516800189397 /* UIView+Frame.m */,
+				DB2A81332280516800189397 /* UIView+LXCornerdious.m */,
+				DB2A81342280516800189397 /* UILabel+LXVerticalStyle.m */,
+				DB2A81352280516800189397 /* LXCustomTextView.h */,
+				DB2A81362280516800189397 /* UILabel+YBAttributeTextTapAction.h */,
+				DB2A81372280516800189397 /* UIColor+LXExpand.h */,
+				DB2A81382280516800189397 /* UIView+Toast.h */,
+				DB2A81392280516800189397 /* LXUtils.h */,
+				DB2A813A2280516800189397 /* UIImage+LXImage.m */,
+				DB2A813B2280516800189397 /* NSObject+LXHud.h */,
+				DB2A813C2280516800189397 /* UIWindow+LXCurrentViewController.h */,
+				DB2A813D2280516800189397 /* UIImage+LXQRCode.h */,
+				DB2A813E2280516800189397 /* NSMutableDictionary+LXSwizzling.h */,
+				DB2A813F2280516800189397 /* UIButton+LXExpandBtn.h */,
+				DB2A81402280516800189397 /* UIView+LX_Frame.m */,
+				DB2A81412280516800189397 /* NSObject+LXSwizzling.m */,
+				DB2A81422280516800189397 /* UILabel+LXLabel.m */,
+				DB2A81432280516800189397 /* NSString+Extension.m */,
+				DB2A81442280516800189397 /* NSMutableArray+LXSwizzling.m */,
+				DB2A81452280516800189397 /* LXTextView.m */,
+				DB2A81462280516800189397 /* UILabel+YBAttributeTextTapAction.m */,
+				DB2A81472280516800189397 /* LXCustomTextView.m */,
+				DB2A81482280516800189397 /* UILabel+LXVerticalStyle.h */,
+				DB2A81492280516800189397 /* UIView+LXCornerdious.h */,
+				DB2A814A2280516800189397 /* UIView+Frame.h */,
+				DB2A814B2280516800189397 /* UIImage+LXQRCode.m */,
+				DB2A814C2280516800189397 /* UIWindow+LXCurrentViewController.m */,
+				DB2A814D2280516800189397 /* NSObject+LXHud.m */,
+				DB2A814E2280516800189397 /* UIImage+LXImage.h */,
+				DB2A814F2280516800189397 /* UIColor+LXExpand.m */,
+				DB2A81502280516800189397 /* UIView+Toast.m */,
+			);
+			path = LXUtils;
 			sourceTree = "<group>";
 		};
 		DB517597227FD39E0049B2F7 = {
@@ -125,10 +270,14 @@
 		DB5175A2227FD39E0049B2F7 /* LargeProjectToGit */ = {
 			isa = PBXGroup;
 			children = (
+				DB2A81292280516800189397 /* LXUtils */,
+				DB2A81182280513E00189397 /* LXQRCode */,
 				DB5175A3227FD39E0049B2F7 /* AppDelegate.h */,
 				DB5175A4227FD39E0049B2F7 /* AppDelegate.m */,
 				DB5175A6227FD39E0049B2F7 /* ViewController.h */,
 				DB5175A7227FD39E0049B2F7 /* ViewController.m */,
+				DB2A811322804CD000189397 /* LQScanViewController.h */,
+				DB2A811422804CD000189397 /* LQScanViewController.m */,
 				DB5175A9227FD39E0049B2F7 /* Main.storyboard */,
 				DB5175AC227FD39F0049B2F7 /* Assets.xcassets */,
 				DB5175AE227FD39F0049B2F7 /* LaunchScreen.storyboard */,
@@ -326,10 +475,18 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LargeProjectToGit/Pods-LargeProjectToGit-resources.sh",
 				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-back.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-help.html",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-helpicons.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-samples.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-back.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-help.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-helpicons.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-samples.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -343,9 +500,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2A81532280516800189397 /* UIView+Frame.m in Sources */,
+				DB2A81592280516800189397 /* UILabel+LXLabel.m in Sources */,
+				DB2A81242280513E00189397 /* LXQRCodeScanView.m in Sources */,
+				DB2A81582280516800189397 /* NSObject+LXSwizzling.m in Sources */,
+				DB2A81632280516900189397 /* UIView+Toast.m in Sources */,
+				DB2A815C2280516900189397 /* LXTextView.m in Sources */,
+				DB2A81252280513E00189397 /* LXQRLightManager.m in Sources */,
+				DB2A815E2280516900189397 /* LXCustomTextView.m in Sources */,
+				DB2A81612280516900189397 /* NSObject+LXHud.m in Sources */,
+				DB2A81272280513E00189397 /* LXQRCodeScanManager.m in Sources */,
+				DB2A815A2280516900189397 /* NSString+Extension.m in Sources */,
 				DB5175A8227FD39E0049B2F7 /* ViewController.m in Sources */,
+				DB2A81602280516900189397 /* UIWindow+LXCurrentViewController.m in Sources */,
+				DB2A81262280513E00189397 /* LXQRCodeHelper.m in Sources */,
+				DB2A815F2280516900189397 /* UIImage+LXQRCode.m in Sources */,
 				DB5175B3227FD39F0049B2F7 /* main.m in Sources */,
+				DB2A81512280516800189397 /* UIButton+LXExpandBtn.m in Sources */,
+				DB2A811522804CD000189397 /* LQScanViewController.m in Sources */,
+				DB2A81282280513E00189397 /* LXWebViewProgressView.m in Sources */,
+				DB2A815B2280516900189397 /* NSMutableArray+LXSwizzling.m in Sources */,
+				DB2A81622280516900189397 /* UIColor+LXExpand.m in Sources */,
+				DB2A81552280516800189397 /* UILabel+LXVerticalStyle.m in Sources */,
+				DB2A81542280516800189397 /* UIView+LXCornerdious.m in Sources */,
+				DB2A815D2280516900189397 /* UILabel+YBAttributeTextTapAction.m in Sources */,
+				DB2A81562280516800189397 /* UIImage+LXImage.m in Sources */,
 				DB5175A5227FD39E0049B2F7 /* AppDelegate.m in Sources */,
+				DB2A81572280516800189397 /* UIView+LX_Frame.m in Sources */,
+				DB2A81522280516800189397 /* NSMutableDictionary+LXSwizzling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,8 +700,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGZJ3F765Y;
 				INFOPLIST_FILE = LargeProjectToGit/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.duanfang.LargeProjectToGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -532,8 +718,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGZJ3F765Y;
 				INFOPLIST_FILE = LargeProjectToGit/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.duanfang.LargeProjectToGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -546,7 +736,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LargeProjectToGitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.duanfang.LargeProjectToGitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -560,7 +754,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LargeProjectToGitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.duanfang.LargeProjectToGitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -573,7 +771,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LargeProjectToGitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.duanfang.LargeProjectToGitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -586,7 +788,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LargeProjectToGitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.duanfang.LargeProjectToGitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
